@@ -90,6 +90,8 @@ body {
 }
 .bannerImage{
   display: none;
+  max-height: 50vh !important;
+  width: auto;
 }
 @media (min-width: 400px) {
   .bannerImage{
