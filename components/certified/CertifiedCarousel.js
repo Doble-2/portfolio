@@ -24,7 +24,7 @@ export default function CertifiedCarousel ({data})   {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container  ">
         {data.map((certified) => (
-            <CertifiedCard data={certified} />
+            <CertifiedCard  key={certified.id} data={certified} />
           ))}
            
         </div>

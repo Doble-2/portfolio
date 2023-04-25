@@ -24,7 +24,7 @@ export default function ProjectCarousel ({data})   {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container  ">
         {data.map((project) => (
-            <ProjectCard data={project} />
+            <ProjectCard key={project.id} data={project} />
           ))}
           
           
