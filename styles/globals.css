@@ -83,18 +83,28 @@ body {
 }
 .banner{
   height: 60vh;
-  background-color: #702021;
+  background-color: #081626;
   display: flex;
     justify-content: center;
     align-items: center;
 }
-.bannerImage{
+.profileImage{
   display: none;
   max-height: 50vh !important;
   width: auto;
 }
 @media (min-width: 400px) {
-  .bannerImage{
+  .profileImage{
     display: block;
   }
   }
+  .bannerImage{
+    position: absolute;
+    width: 100%;
+    z-index: 0;
+    opacity: .4;
+    bottom: 195px;
+  }
+.z-4{
+  z-index: 4;
+}
