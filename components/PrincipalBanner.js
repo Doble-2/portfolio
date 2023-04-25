@@ -4,7 +4,10 @@ import Image from 'next/image'
 export default function PrincipalBanner() {
   return (
     <div class="banner text-white py-24 px-10 object-fill">
+    <div class="container-avila">
     <Image class="rounded-t-lg bannerImage "  width={250} height={250} src={'/avila.png' } alt="" />
+    </div>
+    
     <div class="md:w-1/2 flex justify-end z-4" >
         <div><p class="font-bold text-sm uppercase">Hola  me  llamo</p>
      <p class="text-3xl font-bold">Angel Calderon</p>

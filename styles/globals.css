@@ -99,12 +99,18 @@ body {
   }
   }
   .bannerImage{
-    position: absolute;
     width: 100%;
     z-index: 0;
     opacity: .4;
     bottom: 195px;
   }
 .z-4{
-  z-index: 4;
+  z-index: 4;}
+.containeravila{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: flex-end;
+  height: 60vh;
+
 }
