@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+/*@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 8, 14, 31;
+    --background-end-rgb:8, 14, 31;
+  }
+}*/
+.nav{
+  background-color:#081626;
+}
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+.justify-evenly {
+ justify-content: space-evenly;
+}
+.card{
+  min-width: 250px;
+  max-width: 500px;
+}
+
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+  position: inherit;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.embla__slide {
+  flex: 0 0 45%; 
+  margin: 14px !important/* Default slide covers 100% of the viewport */
+}
+@media (min-width: 768px) {
+  .embla__slide {
+    flex: 0 0 33%;  };
+
+     /* Breakpoint SM slide covers 50% of the viewport */
+  }
+.Select_slide {
+  flex: 0 0 45%; 
+  margin: 14px !important/* Default slide covers 100% of the viewport */
+}
+@media (min-width: 768px) {
+  .Select_slide {
+    flex: 0 0 28%;  };
+
+     /* Breakpoint SM slide covers 50% of the viewport */
+  }
+.card-image{
+  filter: brightness(0.5)
+}
+
+.cardsArea{
+  max-width: 100%;
+}
+
+.certifiedImage{
+  height: 175px;
+  color: transparent;
+  object-fit: cover;
+}
+.banner{
+  height: 60vh;
+  background-color: #702021;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bannerImage{
+  display: none;
+}
+@media (min-width: 400px) {
+  .bannerImage{
+    display: block;
+  }
+  }
