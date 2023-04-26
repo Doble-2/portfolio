@@ -20,7 +20,7 @@ export default function CertifiedCarousel ({data})   {
     }, [emblaApi])
 // console.log(emblaRef)
   return (
-    <div className="embla">
+    <div className="embla mb-5">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container  ">
         {data.map((certified) => (

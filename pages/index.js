@@ -4,6 +4,7 @@ import Layout from '@component/components/Layout'
 import ProjectArea from "@component/components/project/ProjectArea";
 import CertifiedArea from "@component/components/certified/CertifiedArea"
 import PrincipalBanner from '@component/components/PrincipalBanner';
+import AboutMe from '@component/components/AboutMe';
 import app  from '../firebase'
 import { getFirestore, collection,addDoc,getDoc,getDocs,doc,deleteDoc,setDoc } from 'firebase/firestore'
 
@@ -33,9 +34,11 @@ export default function Home({ projects, certifieds }) {
         <div className='flex flex-wrap justify-evenly'>
         <ProjectArea data={projects}/>
         </div>
+       
         <div className='flex flex-wrap justify-evenly'>
         <CertifiedArea data={certifieds}/>
         </div>
+        <AboutMe/>
       </main>
     </Layout>
 
