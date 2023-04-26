@@ -11,8 +11,9 @@ export default function PrincipalBanner() {
     <div class="md:w-1/2 flex justify-end z-4" >
         <div><p class="font-bold text-sm uppercase">Hola  me  llamo</p>
      <p class="text-3xl font-bold">Angel Calderon</p>
-     <p class="text-2xl mb-10 leading-none">Soy un Software Developer</p>
-     <a href="#" class="bg-purple-800 py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Contact us</a>
+     <p class="text-2xl  leading-none">soy un Software Developer</p>
+     <p class="text-2xl mb-10 leading-none">Nacido en Caracas  y del 2002</p>
+     
      </div>
      
      </div>  
