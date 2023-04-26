@@ -9,10 +9,11 @@ export default function PrincipalBanner() {
     </div>
     
     <div class="md:w-1/2 flex justify-end z-4" >
-        <div><p class="font-bold text-sm uppercase">Hola  me  llamo</p>
+        <div><p class="font-bold text-xl">Hola  me  llamo</p>
      <p class="text-3xl font-bold">Angel Calderon</p>
-     <p class="text-2xl  leading-none">soy un Software Developer</p>
-     <p class="text-2xl mb-10 leading-none">Nacido en Caracas  y del 2002</p>
+     <p class="text-2xl  mb-10  leading-none">soy un <b>Software Developer</b></p>
+     <a href="#" class="btn-green py-4 px-8 text-white font-bold uppercase text-xs rounded hover:bg-gray-200 hover:text-gray-800">Descargar CV</a>
+    
      
      </div>
      

@@ -88,13 +88,13 @@ body {
     justify-content: center;
     align-items: center;
 }
-.profileImage{
-  display: none;
+.ProfileImage{
+
   max-height: 50vh !important;
   width: auto;
 }
 @media (min-width: 400px) {
-  .profileImage{
+  .ProfileImage{
     display: block;
   }
   }
@@ -113,4 +113,7 @@ body {
   align-items: flex-end;
   height: 60vh;
 
+}
+.btn-green{
+background-color: #227C70;
 }
