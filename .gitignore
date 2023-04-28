@@ -15,7 +15,7 @@
 # production
 /build
 
-/firebase/serviceAccountKey.json
+serviceAccountKey.json
 
 # misc
 .DS_Store
