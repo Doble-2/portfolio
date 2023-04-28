@@ -5,7 +5,7 @@ import ProjectArea from "@component/components/project/ProjectArea";
 import CertifiedArea from "@component/components/certified/CertifiedArea"
 import PrincipalBanner from '@component/components/PrincipalBanner';
 import AboutMe from '@component/components/Contact';
-import app  from '../firebase'
+import app  from '../firebase/client'
 import { getFirestore, collection,addDoc,getDoc,getDocs,doc,deleteDoc,setDoc } from 'firebase/firestore'
 
 const db = getFirestore(app)

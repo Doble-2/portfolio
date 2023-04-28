@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function AboutMe() {
   return (
-    <div class="banner text-white  h-fitcontent">
+    <div class="banner text-white pt-5 h-fitcontent">
     <div className='avila '>
          
     <div class="px-4 vw100 lg:py-10 py-5  md:flex md:items-center md:justify-between">

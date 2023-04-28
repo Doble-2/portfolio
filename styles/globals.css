@@ -19,6 +19,8 @@
   background-color:#081626;
 }
 body {
+     font-family: '__Inter_Fallback_f6fa1f', '__Inter_Fallback_Fallback_f6fa1f'; 
+      font-style: normal;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
