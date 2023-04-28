@@ -16,7 +16,7 @@ export default function ProjectCard({data}) {
     </Link>
     <div class="p-5">
         <Link href={'project/[id]'} as={'project/'+ data.id }>
-            <h5 class="mb-2 text-xl  tracking-tight text-gray-900 dark:text-white">{data.name}{data.id}</h5>
+            <h5 class="mb-2 text-xl  tracking-tight text-gray-900 dark:text-white">{data.name}</h5>
         </Link>
         <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{data.desc}</p>
         <Link href={'project/[id]'} as={'project/'+ data.id }>
