@@ -7,7 +7,7 @@ export default function projectpage ({project}) {
   return (
     <div class="p-5">
     <Link href={'project/[id]'} as={'project/'+ project.id }>
-        <h5 class="mb-2 text-xl  tracking-tight text-gray-900 dark:text-white">{project.name}</h5>
+        <h5 class="mb-2 text-xl  tracking-tight text-gray-900 dark:text-black">{project.name}</h5>
     </Link>
     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{project.desc}</p>
     <Link href={'project/[id]'} as={'project/'+ project.id }>
