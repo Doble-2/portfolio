@@ -1,12 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
-export default function AboutMe() {
+export default function Footer() {
   return (
     <div class="banner text-white pt-5 h-fitcontent">
     <div className='avila '>
          
-    <div class="px-4 vw100 lg:py-10 py-5  md:flex md:items-center md:justify-between">
+    <div class="px-10 vw100 lg:py-10 py-5  md:flex md:items-center md:justify-between">
         <span class="text-sm text-white  justify-center flex  sm:text-center"> Desarrollado con 🤍 por Doble2.
         </span>
         

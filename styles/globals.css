@@ -140,7 +140,7 @@ background-color: #227C70;
   background-size: cover;
   
   position: relative;
-  background-image: url(/avila.png);
+  background-image: url(/aviladark.png);
 
   background-size: cover;
 }
@@ -149,4 +149,26 @@ background-color: #227C70;
 }
 .opacity-1{
   opacity: 1;
+}
+body::-webkit-scrollbar-track
+{
+
+	background-color: #f5f5f500;
+}
+body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #f5f5f500;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 5px;
+
+	background-color: #081626;
+}
+header{
+  position: sticky;
+  z-index: 30;
+  top: -1px;
 }

@@ -6,14 +6,13 @@ import { useState } from 'react';
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <div>
-
+    <header>
       <nav className="w-full nav shadow">
         <div className=" px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               <a href="#">
-                <h2 className="text-2xl text-white font-bold">NEXT JS</h2>
+                <h2 className="text-2xl text-white font-bold">Angel.dev</h2>
               </a>
               <div className="md:hidden">
                 <button
@@ -53,43 +52,32 @@ export default function Home() {
               </div>
             </div>
           </div>
-         
-            <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? 'block' : 'hidden'
-                }`}
-            >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
-                <li className="text-white">
-                  <Link href="/">
-                    Inicio
-                  </Link>
-                </li>
-                <li className="text-white">
-                  <Link href="/blogs">
-                    Proyectos
-                  </Link>
-                </li>
-                <li className="text-white">
-                  <Link href="/about">
-                    Sobre mi
-                  </Link>
-                </li>
-                <li className="text-white">
-                  <Link href="/contact">
-                    Certificados
-                  </Link>
-                </li>
-                <li className="text-white">
-                  <Link href="/contact">
-                    Contacto
-                  </Link>
-                </li>
-              </ul>
-            </div>
-          
+
+          <div
+            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              navbar ? "block" : "hidden"
+            }`}
+          >
+            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+              <li className="text-white">
+                <Link href="/">Inicio</Link>
+              </li>
+              <li className="text-white">
+                <Link href="/blogs">Proyectos</Link>
+              </li>
+              <li className="text-white">
+                <Link href="/about">Sobre mi</Link>
+              </li>
+              <li className="text-white">
+                <Link href="/contact">Certificados</Link>
+              </li>
+              <li className="text-white">
+                <Link href="/contact">Contacto</Link>
+              </li>
+            </ul>
+          </div>
         </div>
       </nav>
-     
-    </div>
+    </header>
   );
 }
