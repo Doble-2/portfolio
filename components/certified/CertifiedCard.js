@@ -12,9 +12,9 @@ export default function CertifiedCard({data}) {
     </div>
     <div class="p-5">
         <div href="#">
-            <h5 class="mb-2 text-xl  tracking-tight text-gray-900 dark:text-white">{data.name}</h5>
+            <h5 class="mb-2 text-xl  tracking-tight text-white">{data.name}</h5>
         </div>
-        <a href={'/certifieds/'+data.id+'.pdf'} download class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-teal-900  btn-green">
+        <a href={'/certifieds/'+data.id+'.pdf'} download class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-blue-900  bg-blue-800 ">
             Descargar
               </a>
     </div>

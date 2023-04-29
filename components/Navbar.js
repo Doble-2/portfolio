@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -11,8 +12,9 @@ export default function Home() {
         <div className=" px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              <a href="#">
-                <h2 className="text-2xl text-white font-bold">Angel.dev</h2>
+              <a href="#" className='flex'>
+              <Image class="mx-2"  width={25} height={25} src={'/favicon_.png'} alt="" />
+                <h2 className="text-xl text-white font-bold">Angelcalderon.dev</h2>
               </a>
               <div className="md:hidden">
                 <button

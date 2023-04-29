@@ -4,8 +4,8 @@
 
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 216, 215, 200;
-  --background-end-rgb: 216, 215, 200;
+  --background-start-rgb: 200, 200, 200;
+  --background-end-rgb: 204, 204, 204;
 }
 
 /*@media (prefers-color-scheme: dark) {
@@ -16,7 +16,7 @@
   }
 }*/
 .nav{
-  background-color:#081626;
+  background-color:#111;
 }
 body {
      font-family: '__Inter_Fallback_f6fa1f', '__Inter_Fallback_Fallback_f6fa1f'; 
@@ -37,7 +37,7 @@ body {
 .card{
   min-width: 250px;
   max-width: 500px;
-  background-color: #081626;
+  background-color: #111;
 }
 
 .embla {
@@ -88,7 +88,7 @@ body {
 
 .banner{
   height: 60vh;
-  background-color: #081626;
+  background-color: #111;
   display: flex;
     justify-content: center;
     align-items: center;
@@ -165,7 +165,7 @@ body::-webkit-scrollbar-thumb
 {
 	border-radius: 5px;
 
-	background-color: #081626;
+	background-color: #111;
 }
 header{
   position: sticky;
