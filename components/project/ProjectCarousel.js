@@ -26,6 +26,8 @@ export default function ProjectCarousel ({data})   {
         {data.map((project) => (
             <ProjectCard key={project.id} data={project} />
           ))}
+   
+
           
           
            
