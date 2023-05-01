@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import Layout from '@component/components/Layout'
 import ProjectArea from "@component/components/project/ProjectArea";
+import Current from '@component/components/Current';
 import CertifiedArea from "@component/components/certified/CertifiedArea"
 import PrincipalBanner from '@component/components/PrincipalBanner';
 import app  from '../firebase/client'
@@ -32,6 +33,7 @@ export default function Home({ projects, certifieds }) {
         <PrincipalBanner/>
         <div className='flex flex-wrap justify-evenly'>
         <ProjectArea data={projects}/>
+        <Current></Current>
         </div>
        
         <div className='flex flex-wrap justify-evenly'>

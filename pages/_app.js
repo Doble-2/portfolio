@@ -7,8 +7,8 @@ import { useEffect } from 'react';
 export default function App({ Component, pageProps }) {
   useEffect(() => {
 		AOS.init({
-			delay: 400,
-			duration: 800,
+			delay: 100,
+			duration: 500,
 		});
    });
   return <Component {...pageProps} />
