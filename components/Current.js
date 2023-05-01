@@ -11,7 +11,7 @@ export default function Current() {
         </div>  
                      
         <div class="lg:ml-20 place-self-center  px-6 py-4  lg:col-span-7">
-            <h1 class="max-w-2xl text-center mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-4xl ">Actualmente colaborando en Enviosfarma</h1>
+            <h1 class="max-w-2xl text-center mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl ">Actualmente colaborando en Enviosfarma</h1>
             <p class="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl ">Labore elit adipisicing mollit Lorem laborum culpa incididunt fugiat velit ut magna consectetur quis amet. Excepteur ad Lorem mollit sunt mollit cupidatat ea tempor Lorem est. Est ipsum pariatur nulla sit culpa est aliquip nulla esse ipsum. Proident nisi deserunt aliquip culpa culpa laboris reprehenderit ut adipisicing.</p>
             <div className='hidden sm:block'>
             <a href="#" class="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">

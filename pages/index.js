@@ -28,7 +28,7 @@ export default function Home({ projects, certifieds }) {
   return (
     <Layout>
       <main
-        className={`flex min-h-screen flex-col   ${inter.className}`}
+        className={`flex min-h-screen flex-col  `}
       >
         <PrincipalBanner/>
         <div className='flex flex-wrap justify-evenly'>
