@@ -1,4 +1,5 @@
 import React from 'react'
+import CarouselPage from '@component/components/project/page/CarouselPage'
 import app  from '../../firebase/client'
 import Layout from '@component/components/Layout'
 
@@ -8,12 +9,14 @@ const db = getFirestore(app)
 export default function projectpage ({project}) {
   return (
     <Layout>
-
-    <div class="p-5">
-    <Link href={'project/[id]'} as={'project/'+ project.id }>
-        <h5 class="mb-2 text-xl  tracking-tight text-gray-900 dark:text-black">{project.name}</h5>
+      <div className='p-5'>
+      <Link href={'project/[id]'} as={'project/'+ project.id }>
+        <h5 class="mb-2 text-4xl text-center tracking-tight text-black" style={{borderBottom: `3px solid ${project.color}`}}>{project.name}</h5>
     </Link>
-    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{project.desc}</p>
+    <CarouselPage data={project}/>
+    <div class="p-5">
+   
+    <p class="mb-3 font-normal text-gray-800">{project.desc}</p>
     <Link href={'project/[id]'} as={'project/'+ project.id }>
     <p href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white  rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-teal-900  btn-green">
         Read more
@@ -23,6 +26,8 @@ export default function projectpage ({project}) {
 
 
 </div>
+      </div>
+     
 </Layout>
   )
 }
@@ -44,8 +49,7 @@ export const getStaticProps = async ({params}) => {
 var docSnap = await getDoc(docRef);
 
 var Docproject = docSnap.data();
-//Docproject = JSON.stringify(Docproject); 
-console.log(Docproject);
+
 
   return {
     props: {

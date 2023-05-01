@@ -176,3 +176,17 @@ header{
 .menu-nav{
   padding-right: 200px;
 }}
+.project-image{
+  height: 50vh;
+  object-fit: contain;
+  width: auto;
+}
+.project-image-container{
+  min-width: 100vw;
+}
+.project-image-container>div{ 
+ 
+  width: fit-content;
+  padding: 29px;
+
+}
