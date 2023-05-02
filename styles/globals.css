@@ -189,7 +189,8 @@ header{
 .project-image-container>div{ 
  
   width: fit-content;
-
+  margin-left: auto !important;
+  margin-right: auto !important;
 
 }
 

@@ -4,7 +4,7 @@ import Image from 'next/image'
 export default function Current() {
   return (
     <section class="">
-    <div class="grid  sm:flex max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" data-aos="fade-down">
+    <div class="grid  sm:flex max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" data-aos="fade-up">
     <div class=" lg:mt-0 lg:col-span-5 flex justify-center">
         <Image class="rounded-t-lg card-image"  width={250} height={250} src={'/projects/Enviosfarma/home_mobile.jpg' } alt="" />
         

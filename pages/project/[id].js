@@ -15,7 +15,7 @@ export default function projectpage ({project}) {
     </Link>
       <div class="grid  sm:flex max-w-screen-xl   mx-auto lg:gap-8 xl:gap-0 lg:py-10 lg:grid-cols-12" data-aos="fade-down">
         
-    <div class=" lg:mt-0 lg:col-span-5 flex justify-center">
+    <div class=" lg:mt-0 lg:col-span-5 flex justify-center" style={{maxWidth:` 550px;`}}>
     <CarouselPage data={project}/>
         
         </div>  
