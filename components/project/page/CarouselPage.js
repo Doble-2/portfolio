@@ -51,8 +51,8 @@ export default function CarouselPage({ data }) {
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
           {data.images.map((image) => (
-            <div className=" project-image-container ">
-                <div className=" p-3 embla__slide flex justify-center" key={image}>
+            <div className=" project-image-container " key={image}>
+                <div className=" p-3 embla__slide flex justify-center" >
                 <div className="rounded-lg nav flex justify-center p-3">
                   <Image
                     class="rounded-t-lg   card-image project-image"
