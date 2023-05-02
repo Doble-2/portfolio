@@ -10,7 +10,7 @@ import {
 import Image from "next/image";
 
 export default function CarouselPage({ data }) {
-  const options = {};
+  const options = { dragFree: true, containScroll: 'trimSnaps'};
   const [emblaRef, emblaApi] = useEmblaCarousel(options);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
@@ -52,8 +52,8 @@ export default function CarouselPage({ data }) {
         <div className="embla__container">
           {data.images.map((image) => (
 
-              <div className="embla__slide p-5 project-image-container flex justify-center" key={image}>
-                <div className="rounded-lg nav flex justify-center ">
+              <div className="embla__slide p-3 project-image-container flex justify-center" key={image}>
+                <div className="rounded-lg nav flex justify-center p-3">
                   <Image
                     class="rounded-t-lg   card-image project-image"
                     width={1000}
