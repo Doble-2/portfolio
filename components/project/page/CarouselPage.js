@@ -47,6 +47,10 @@ export default function CarouselPage({ data }) {
 
   // console.log(emblaRef)
   return (
+    <div
+    class=" lg:mt-0 lg:col-span-5 flex justify-center"
+    style={{ maxWidth: ` 550px;` }}
+  >
     <div className="embla ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
@@ -73,6 +77,7 @@ export default function CarouselPage({ data }) {
     {/* <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
       <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
           */} 
+    </div>
     </div>
   );
 }
