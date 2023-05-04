@@ -4,10 +4,16 @@ import app  from '../../firebase/client'
 import Layout from '@component/components/Layout'
 import Data from '@component/components/project/page/Data'
 import { getFirestore, collection,addDoc,getDoc,getDocs,doc,deleteDoc,setDoc } from 'firebase/firestore'
+import Head from 'next/head'
 import Link from 'next/link'
 const db = getFirestore(app)
 export default function projectpage ({project}) {
   return (
+    <>
+      <Head>
+    <title>{project.name} | Angel Calderon</title>
+   <link rel="shortcut icon" href="/favicon.png" />
+ </Head>
     <Layout>
 
       <div className="py-4">
@@ -20,6 +26,7 @@ export default function projectpage ({project}) {
         </div>
       </div>
     </Layout>
+    </>
   );
 }
 export async function getStaticPaths(ctx) {
@@ -40,7 +47,7 @@ export const getStaticProps = async ({params}) => {
 var docSnap = await getDoc(docRef);
 
 var Docproject = docSnap.data();
-
+console.log(Docproject);
 
   return {
     props: {

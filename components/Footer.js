@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
        
       </div>
-      <div className='flex justify-center'>
+      <div className='flex  text-gray-400 justify-center'>
     Ilustracion de @robinsonlgil
     </div>
     </div>

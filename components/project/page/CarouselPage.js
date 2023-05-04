@@ -48,8 +48,8 @@ export default function CarouselPage({ data }) {
   // console.log(emblaRef)
   return (
     <div
-    class=" lg:mt-0 lg:col-span-5 flex justify-center"
-    style={{ maxWidth: ` 550px;` }}
+    class="w550px lg:mt-0 lg:col-span-5 flex justify-center"
+
   >
     <div className="embla ">
       <div className="embla__viewport" ref={emblaRef}>

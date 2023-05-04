@@ -73,7 +73,7 @@ body {
      /* Breakpoint SM slide covers 50% of the viewport */
   }
 .card-image{
-  filter: brightness(0.5)
+  filter: brightness(0.7)
 }
 
 .cardsArea{
@@ -191,5 +191,13 @@ header{
   margin-right: auto !important;
 
 }
-
+.w550px{
+  max-width:  550px;
+}
+.w-50{
+  flex: 0 0 50%;
+}
+.wrap{
+  flex-wrap: wrap;
+}
 

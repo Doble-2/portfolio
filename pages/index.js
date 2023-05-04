@@ -6,6 +6,7 @@ import Current from '@component/components/Current';
 import CertifiedArea from "@component/components/certified/CertifiedArea"
 import PrincipalBanner from '@component/components/PrincipalBanner';
 import app  from '../firebase/client'
+import Head from 'next/head';
 import { getFirestore, collection,addDoc,getDoc,getDocs,doc,deleteDoc,setDoc } from 'firebase/firestore'
 
 const db = getFirestore(app)
@@ -26,9 +27,14 @@ export default function Home({ projects, certifieds }) {
   });
 
   return (
+    <>
+   <Head>
+    <title>Angel Calderon Desarrollador Frontend</title>
+   <link rel="shortcut icon" href="/favicon.png" />
+ </Head>
     <Layout>
       <main
-        className={`flex min-h-screen flex-col  `}
+        className={`flex min-h-screen flex-col ${inter} `}
       >
         <PrincipalBanner/>
         <div className='flex flex-wrap justify-evenly'>
@@ -42,7 +48,7 @@ export default function Home({ projects, certifieds }) {
 
       </main>
     </Layout>
-
+    </>
   )
 }
 
