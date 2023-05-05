@@ -8,10 +8,11 @@ import {
 } from "./EmblaCarouselArrowsDotsButtons";
 
 import Image from "next/image";
+import Autoplay from 'embla-carousel-autoplay'
 
 export default function CarouselPage({ data }) {
   const options = {  containScroll: 'trimSnaps'};
-  const [emblaRef, emblaApi] = useEmblaCarousel(options);
+  const [emblaRef, emblaApi] = useEmblaCarousel(options,[Autoplay()]);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -48,7 +49,7 @@ export default function CarouselPage({ data }) {
   // console.log(emblaRef)
   return (
     <div
-    class="w550px lg:mt-0 lg:col-span-5 flex justify-center"
+    className="w550px lg:mt-0 md:col-span-6 flex justify-center"
 
   >
     <div className="embla ">
@@ -59,7 +60,7 @@ export default function CarouselPage({ data }) {
                 <div className=" p-3 embla__slide flex justify-center" >
                 <div className="rounded-lg nav flex justify-center p-3">
                   <Image
-                    class="rounded-t-lg   card-image project-image"
+                    className="rounded-t-lg   card-image project-image"
                     width={1000}
                     height={1000}
                     src={"/projects/" + data.name + "/" + image}

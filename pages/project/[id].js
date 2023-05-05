@@ -11,14 +11,14 @@ export default function projectpage ({project}) {
   return (
     <>
       <Head>
-    <title>{project.name} | Angel Calderon</title>
+    <title>{project.name}</title>
    <link rel="shortcut icon" href="/favicon.png" />
  </Head>
     <Layout>
 
       <div className="py-4">
         <div
-          class="grid  sm:flex max-w-screen-xl   mx-auto lg:gap-8 xl:gap-0 lg:py-10 lg:grid-cols-12"
+          className="grid  sm:flex max-w-screen-xl   mx-auto lg:gap-8 xl:gap-0 lg:py-10 "
           data-aos="fade-down"
         >       
           <CarouselPage data={project} />       
@@ -47,7 +47,7 @@ export const getStaticProps = async ({params}) => {
 var docSnap = await getDoc(docRef);
 
 var Docproject = docSnap.data();
-console.log(Docproject);
+//console.log(Docproject);
 
   return {
     props: {

@@ -1,6 +1,7 @@
 import ProjectCard from '@component/components/project/ProjectCard'
 import React, { useCallback } from 'react'
 import useEmblaCarousel from 'embla-carousel-react'
+import Autoplay from 'embla-carousel-autoplay'
 
 
 
@@ -9,7 +10,7 @@ export default function ProjectCarousel ({data})   {
     const options = { slidesToScroll: 'auto', containScroll: 'trimSnaps' }
 
 
-    const [emblaRef, emblaApi] = useEmblaCarousel(options)
+    const [emblaRef, emblaApi] = useEmblaCarousel(options,[Autoplay()])
 
     const scrollPrev = useCallback(() => {
       if (emblaApi) emblaApi.scrollPrev()

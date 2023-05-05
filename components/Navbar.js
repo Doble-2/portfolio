@@ -14,7 +14,7 @@ export default function Home() {
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <Link href={'/'} as={'/'} className='flex'>
 
-              <Image class="mx-2"  width={25} height={25} src={'/favicon_.png'} alt="" />
+              <Image className="mx-2"  width={25} height={25} src={'/favicon_.png'} alt="" />
                 <h2 className="text-xl text-white font-bold">Angelcalderon.dev</h2>
             
             </Link>

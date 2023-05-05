@@ -194,9 +194,11 @@ header{
 .w550px{
   max-width:  550px;
 }
-.w-50{
-  flex: 0 0 50%;
-}
+
+  .w-50{
+    flex: 0 0 50%;
+  }
+
 .wrap{
   flex-wrap: wrap;
 }
