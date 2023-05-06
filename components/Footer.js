@@ -29,6 +29,7 @@ export default function Footer() {
             </a>
             
         </div>
+        
        
       </div>
       <div className='flex  text-gray-400 justify-center'>
