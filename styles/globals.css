@@ -38,6 +38,7 @@ body {
   min-width: 250px;
   max-width: 500px;
   background-color: #111;
+  max-height: 413px;
 }
 
 .embla {
@@ -203,3 +204,8 @@ header{
   flex-wrap: wrap;
 }
 
+.embla-arrow{
+  min-width: 20px;
+    flex:0 0 2%;
+    margin: 0px;
+}

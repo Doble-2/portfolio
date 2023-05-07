@@ -5,7 +5,7 @@ import {
   DotButton,
   PrevButton,
   NextButton,
-} from "./EmblaCarouselArrowsDotsButtons";
+} from "../../EmblaCarouselArrowsDotsButtons";
 
 import Image from "next/image";
 import Autoplay from 'embla-carousel-autoplay'
@@ -52,6 +52,7 @@ export default function CarouselPage({ data }) {
     className="w550px lg:mt-0 md:col-span-6 flex justify-center"
 
   >
+      <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
     <div className="embla ">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
@@ -79,6 +80,7 @@ export default function CarouselPage({ data }) {
       <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
           */} 
     </div>
+    <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
     </div>
   );
 }
