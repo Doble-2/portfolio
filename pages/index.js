@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 import Layout from '@component/components/Layout'
 import ProjectArea from "@component/components/project/ProjectArea";
 import Current from '@component/components/Current';
@@ -17,7 +17,7 @@ const db = getFirestore(app)
 
 
 
-const inter = Inter({ subsets: ['latin'] })
+const inter = Roboto({ subsets: ['latin'],weight:'100' })
 
 export default function Home({ projects, certifieds }) {
   
@@ -55,7 +55,7 @@ export default function Home({ projects, certifieds }) {
  </Head>
     <Layout>
       <main
-        className={`flex min-h-screen flex-col ${inter} `}
+        className={`flex min-h-screen flex-col  `}
       >
         <PrincipalBanner/>
         <div className='flex flex-wrap justify-evenly'>
