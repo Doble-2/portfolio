@@ -74,7 +74,7 @@ body {
      /* Breakpoint SM slide covers 50% of the viewport */
   }
 .card-image{
-  filter: brightness(0.7)
+  filter: brightness(0.85)
 }
 
 .cardsArea{
