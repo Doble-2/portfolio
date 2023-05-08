@@ -18,7 +18,7 @@ export const PrevButton = (props) => {
 
   var opacity = 1;
   if ( !enabled){
-    opacity = .5;
+    opacity = .0;
   }
 
   return (
@@ -36,7 +36,7 @@ export const NextButton = (props) => {
   const { enabled, onClick } = props
   var opacity = '1';
   if ( !enabled){
-    opacity = '.5';
+    opacity = '.0';
   }
   return (
     <button 
