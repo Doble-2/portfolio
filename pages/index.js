@@ -34,7 +34,23 @@ export default function Home({ projects, certifieds }) {
    <Head>
     <title>Angel Calderon Desarrollador Frontend</title>
    <link rel="shortcut icon" href="/favicon.png" />
-   <meta name="description" content="Actualmente estoy estudiando Ingeniería en Sistemas en la UNEXPO y también tengo varios certificados de plataformas como Platzi y Google."/>
+   
+  <meta name="description" content="Actualmente estoy estudiando Ingeniería en Sistemas en la UNEXPO y también tengo varios certificados de plataformas como Platzi y Google."/>
+
+
+  <meta property="og:url" content="https://angelcalderon.dev/"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:title" content="Angel Calderon Desarrollador Frontend"/>
+  <meta property="og:description" content="Actualmente estoy estudiando Ingeniería en Sistemas en la UNEXPO y también tengo varios certificados de plataformas como Platzi y Google."/>
+  <meta property="og:image" content="https://angelcalderon.dev/_next/image?url=%2Fprojects%2Fangelcalderon.dev%2Fhome.jpg&w=1080&q=75"/>
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta property="twitter:domain" content="angelcalderon.dev"/>
+  <meta property="twitter:url" content="https://angelcalderon.dev/"/>
+  <meta name="twitter:title" content="Angel Calderon Desarrollador Frontend"/>
+  <meta name="twitter:description" content="Actualmente estoy estudiando Ingeniería en Sistemas en la UNEXPO y también tengo varios certificados de plataformas como Platzi y Google."/>
+  <meta name="twitter:image" content="https://angelcalderon.dev/_next/image?url=%2Fprojects%2Fangelcalderon.dev%2Fhome.jpg&w=1080&q=75"/>
   <meta name="keywords" content="desarrollo, programacion, web, desarrollador, programador, Caracas, Angel Calderon, android, movil, mobile, developer, software, flutter, react,react.js, next.js, php, laravel,bootstrap,tailwind, platzi "/>
  </Head>
     <Layout>
