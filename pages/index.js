@@ -7,7 +7,10 @@ import CertifiedArea from "@component/components/certified/CertifiedArea"
 import PrincipalBanner from '@component/components/PrincipalBanner';
 import app  from '../firebase/client'
 import Head from 'next/head';
+import Contact from '@component/components/Contact';
 import { getFirestore, collection,addDoc,getDoc,getDocs,doc,deleteDoc,setDoc } from 'firebase/firestore'
+
+import About from '@component/components/About';
 
 const db = getFirestore(app)
 
@@ -40,14 +43,14 @@ export default function Home({ projects, certifieds }) {
         <div className='flex flex-wrap justify-evenly'>
         <ProjectArea data={projects}/>
         <Current></Current>
-        </div>
-       
-        <div className='flex flex-wrap justify-evenly'>
+        <About/>
         <CertifiedArea data={certifieds}/>
+        <Contact/>
         </div>
 
       </main>
     </Layout>
+    
     </>
   )
 }

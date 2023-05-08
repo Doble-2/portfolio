@@ -67,16 +67,16 @@ export default function Home() {
                 <Link href="/">Inicio</Link>
               </li>
               <li className="text-white">
-                <Link href="/blogs">Proyectos</Link>
+                <Link href="/#projectArea">Proyectos</Link>
               </li>
               <li className="text-white">
-                <Link href="/about">Sobre mi</Link>
+                <Link href="/#aboutArea">Sobre mi</Link>
               </li>
               <li className="text-white">
-                <Link href="/contact">Certificados</Link>
+                <Link href="/#certifiedArea">Certificados</Link>
               </li>
-              <li className="text-white">
-                <Link href="/contact">Contacto</Link>
+              <li className="text-white hidden sm:flex">
+                <Link href="/#contactArea">Contacto</Link>
               </li>
             </ul>
           </div>
