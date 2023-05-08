@@ -20,6 +20,7 @@ export default function projectpage ({project}) {
         <div
           className="grid  sm:flex max-w-screen-xl   mx-auto lg:gap-8 xl:gap-0 lg:py-10 "
           data-aos="fade-down"
+          style={{minHeight:`80vh`}}
         >       
           <CarouselPage data={project} />       
           <Data data={project}/>      
