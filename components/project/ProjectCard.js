@@ -10,7 +10,7 @@ export default function ProjectCard({data}) {
   }
 //image = '../public/projects/' + data.name +'/'+ data.images[0];
   return (
-    <div className="card mx-4  rounded-lg shadow " data-aos="fade-up" style={{flex: `0 0 30%`}}>
+    <div className="card mx-4  rounded-xl shadow " data-aos="fade-up" style={{flex: `0 0 30%`}}>
     <Link href={'project/[id]'} as={'project/'+ data.id }>
     <Image className="rounded-t-lg card-image"  width={500} height={500} src={'/projects/' + data.name +'/'+data.images[0] } alt={data.name} />
     </Link>

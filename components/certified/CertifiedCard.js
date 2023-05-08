@@ -6,7 +6,7 @@ export default function CertifiedCard({data}) {
 
 //image = '../public/projects/' + data.name +'/'+ data.images[0];
   return (
-    <div className="card mx-4 border-gray-200 rounded-lg shadow  "  data-aos="fade-up">
+    <div className="card mx-4 border-gray-200 rounded-xl shadow  "  data-aos="fade-up">
     <div href="#">
       <Image alt={data.name} className="rounded-t-lg card-image certifiedImage"  width={500} height={500} src={'/certifieds/'+data.id+'.jpg' } />
     </div>
