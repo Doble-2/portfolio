@@ -34,7 +34,7 @@ export default function Home({ projects, certifieds }) {
    <Head>
     <title>Angel Calderon Desarrollador Frontend</title>
    <link rel="shortcut icon" href="/favicon.png" />
-   <meta name="description" content="Soy un desarrollador de software apasionado por los retos y el aprendizaje constante. Me encanta crear sitios web atractivos, funcionales y accesibles. Actualmente estoy estudiando Ingeniería en Sistemas en la UNEXPO y también tengo varios certificados de plataformas como Platzi y Google."/>
+   <meta name="description" content="Actualmente estoy estudiando Ingeniería en Sistemas en la UNEXPO y también tengo varios certificados de plataformas como Platzi y Google."/>
   <meta name="keywords" content="desarrollo, programacion, web, desarrollador, programador, Caracas, Angel Calderon, android, movil, mobile, developer, software, flutter, react,react.js, next.js, php, laravel,bootstrap,tailwind, platzi "/>
  </Head>
     <Layout>
