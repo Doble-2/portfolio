@@ -13,27 +13,29 @@ me enorgullece mi capacidad para seguir aprendiendo y estar al día con las últ
 </p>
 
             <div className=' flex wrap justify-center'>
-
-            <img className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
-            <img  className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />       
+            <img alt="react.js" className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           
-            <img  className='mx-5  my-3 ' style={{maxWidth:`50px`}}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
           
-            <img  className='mx-5  my-3 ' style={{maxWidth:`50px`}}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+          <img alt="flutter" className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" />
+          <img alt="php" className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+          <img alt="next.js" className='mx-5  my-3 ' style={{maxWidth:`50px`}}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" />
           
-            <img  className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg" />
+          <img alt="node.js" className='mx-5  my-3 ' style={{maxWidth:`50px`}}  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+        
+         
+          <img alt="tailwind"  className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+        
+            <img alt="bootstrap" className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" />
+            <img alt="mysql"  className='mx-5 my-3'style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
           
-            <img   className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+            <img alt="firebase" className='mx-5 my-3 'style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
+          
+            <img alt="github" className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />       
+          
           
            
-            <img  className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
           
           
-            <img  className='mx-5 my-3 ' style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg" />
-          
-            <img   className='mx-5 my-3'style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" />
-          
-            <img  className='mx-5 my-3 'style={{maxWidth:`50px`}} src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" />
           
             </div>
            

@@ -23,7 +23,7 @@ export default function PrincipalBanner() {
           
         </div>
         <div className=" lg:mt-0 lg:col-span-5 flex justify-center">
-        <Image className="rounded-t-lg ProfileImage  z-4 "  width={250} height={250} src={'/angel4.png' } alt="" />
+        <Image className="rounded-t-lg ProfileImage  z-4 "  width={250} height={250} src={'/angel4.png' } alt="foto de angel calderon" />
         
         </div>  
                      

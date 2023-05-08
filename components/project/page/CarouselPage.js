@@ -65,7 +65,7 @@ export default function CarouselPage({ data }) {
                     width={1000}
                     height={1000}
                     src={"/projects/" + data.name + "/" + image}
-                    alt=""
+                    alt={image}
                   />
                 </div>
               </div>

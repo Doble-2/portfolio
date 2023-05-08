@@ -8,11 +8,11 @@ export default function CertifiedCard({data}) {
   return (
     <div className="card mx-4 border-gray-200 rounded-lg shadow  "  data-aos="fade-up">
     <div href="#">
-      <Image className="rounded-t-lg card-image certifiedImage"  width={500} height={500} src={'/certifieds/'+data.id+'.jpg' } alt="" />
+      <Image alt={data.name} className="rounded-t-lg card-image certifiedImage"  width={500} height={500} src={'/certifieds/'+data.id+'.jpg' } />
     </div>
     <div className="p-5">
         <div href="#">
-            <h5 className="mb-2 text-xl  tracking-tight text-white">{data.name}</h5>
+            <p className="mb-2 text-xl  tracking-tight text-white">{data.name}</p>
             <div className="flex w-50 ">
             
             <p className="mb-3 font-normal text-white">
@@ -34,7 +34,7 @@ export default function CertifiedCard({data}) {
             </span>
           </div>
         </div>
-        <a href={'/certifieds/'+data.id+'.pdf'} download className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ring-white ring-1 rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-gray-900  bg-black ">
+        <a  href={'/certifieds/'+data.id+'.pdf'} download className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ring-white ring-1 rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-gray-900  bg-black ">
             Descargar
               </a>
     </div>

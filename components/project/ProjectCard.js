@@ -12,11 +12,11 @@ export default function ProjectCard({data}) {
   return (
     <div className="card mx-4  rounded-lg shadow " data-aos="fade-up" style={{flex: `0 0 30%`}}>
     <Link href={'project/[id]'} as={'project/'+ data.id }>
-    <Image className="rounded-t-lg card-image"  width={500} height={500} src={'/projects/' + data.name +'/'+data.images[0] } alt="" />
+    <Image className="rounded-t-lg card-image"  width={500} height={500} src={'/projects/' + data.name +'/'+data.images[0] } alt={data.name} />
     </Link>
     <div className="p-5">
         <Link href={'project/[id]'} as={'project/'+ data.id }>
-            <h5 className="mb-2 text-xl  tracking-tight text-white">{data.name}</h5>
+            <p className="mb-2 text-xl  tracking-tight text-white">{data.name}</p>
         </Link>
         <p className="mb-3 font-normal text-gray-300">{data.desc}</p>
         <Link href={'project/[id]'} as={'project/'+ data.id }>
