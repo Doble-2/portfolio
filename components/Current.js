@@ -4,15 +4,15 @@ import Link from 'next/link'
 export default function Current() {
   return (
     <section className="">
-    <div className="grid  sm:flex max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12" data-aos="fade-up">
+    <div className="grid  sm:flex max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
     <div className=" lg:mt-0 lg:col-span-5 flex justify-center">
-        <Image className="rounded-t-lg card-image"  width={250} height={250} src={'/projects/Enviosfarma/home_mobile.jpg' } alt="" />
+        <Image className="rounded-t-lg card-image"  data-aos="fade-up" width={250} height={250} src={'/projects/Enviosfarma/home_mobile.jpg' } alt="" />
         
         </div>  
                      
         <div className="lg:ml-20 place-self-center  px-6 py-4  lg:col-span-7">
             <h3 className="max-w-2xl text-center mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl ">Actualmente colaborando en Enviosfarma</h3>
-            <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl ">Como desarrollador junior, trabajo en el desarrollo de un sistema para la compra y alquiler de productos médicos y para conectar con profesionales de la salud. Utilizamos JavaScript, Laravel, PHP, MySQL y distintas APIs. Desarrollamos una interfaz de usuario intuitiva. El proyecto está siendo un éxito y hemos recibido comentarios positivos de los usuarios.</p>
+            <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl ">Como programador junior, trabajo en el desarrollo de un sistema para la compra y alquiler de productos médicos y para conectar con profesionales de la salud. Utilizamos JavaScript, Laravel, PHP, MySQL y distintas APIs. Desarrollamos una interfaz de usuario intuitiva. El proyecto está siendo un éxito y hemos recibido comentarios positivos de los usuarios.</p>
             <div className='hidden sm:flex  md:justify-center'>
             <Link href={'/project/XPzrM29jkkTU6j9xYJrl'} as={'/project/XPzrM29jkkTU6j9xYJrl/' }>
             <p href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">

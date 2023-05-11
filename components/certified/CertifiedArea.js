@@ -4,9 +4,9 @@ import CertifiedCarousel from "@component/components/certified/CertifiedCarousel
 export default function ProjectArea({data}) {
   return (
     
-    <div className='p-6 cardsArea' id='certifiedArea' data-aos="fade-down">
+    <div className='p-6 cardsArea' id='certifiedArea'>
         <h3 className='text-center text-2xl font-bold mb-4'>Algunos certificados que he conseguido</h3>
-        <CertifiedCarousel data={data}/>
+        <CertifiedCarousel  data-aos="fade-down" data={data}/>
         <hr className='bg-gray-800'></hr>
     </div>
    
