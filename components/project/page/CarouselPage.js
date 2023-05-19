@@ -61,6 +61,7 @@ export default function CarouselPage({ data }) {
                 <div className=" p-3 embla__slide flex justify-center" >
                 <div className="rounded-lg nav flex justify-center p-3">
                   <Image
+                   loading="eager"
                     className="rounded-t-lg   card-image project-image"
                     width={1000}
                     height={1000}

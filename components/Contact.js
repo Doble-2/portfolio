@@ -8,7 +8,7 @@ export default function Contact() {
     
                      
         <div className="place-self-center  px-4 py-4  lg:col-span-7">
-            <h3 className="max-w-2xl text-center mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl ">Contactame</h3>
+            <h3 className="max-w-2xl text-center mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl ">Contáctame</h3>
            
             <div className=' flex wrap'>
             <Link  className="mx-3" href='https://www.linkedin.com/in/angeld2/' target="blank">
