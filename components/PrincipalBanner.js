@@ -7,14 +7,14 @@ export default function PrincipalBanner() {
       <div className="grid  sm:flex max-w-screen-xl px-8 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16  lg:px-16 lg:grid-cols-12">
         <div className="lg:mr-20 place-self-center lg:col-span-7">
           <h1 className="max-w-2xl mb-4 tracking-tight leading-none text-2xl font-bold  md:text-1xl xl:text-2xl ">
-            Hola soy
+            Hola, soy
             <p className=" text-3xl font-extrabold  md:text-3xl xl:text-4xl ">
               Ángel Calderón
             </p>{" "}
           </h1>
           <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl ">
             un desarrollador de software apasionado por los retos y el
-            aprendizaje constante. Tengo 21 años y actualmente resido en
+            aprendizaje constante. Tengo 21 años, actualmente, resido en
             Caracas, Venezuela.
           </p>
           <div className="hidden sm:block">
