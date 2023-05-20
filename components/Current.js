@@ -12,7 +12,7 @@ export default function Current() {
                      
         <div className="lg:ml-20 place-self-center  px-6 py-4  lg:col-span-7">
             <h3 className="max-w-2xl text-center mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-3xl xl:text-3xl ">Actualmente colaboro en Enviosfarma</h3>
-            <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl ">Como programador junior. Trabajo en el desarrollo de un sistema para la compra y alquiler de productos médicos, a la vez que ayuda a conectar con profesionales de la salud.</p>  <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl "> El proyecto está siendo un éxito y hemos recibido comentarios positivos de los usuarios.</p>
+            <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl ">En enviosfarma me desempeño como programador junior, trabajo en el desarrollo de un sistema para la compra y alquiler de productos médicos, a la vez que ayuda a conectar con profesionales de la salud.</p>  <p className="max-w-2xl mb-6 font-light lg:mb-8 text-lg  md:text-lg lg:text-xl "> El proyecto está siendo un éxito y hemos recibido comentarios positivos de los usuarios.</p>
             <div className='hidden sm:flex  md:justify-center'>
             <Link href={'/project/XPzrM29jkkTU6j9xYJrl'} as={'/project/XPzrM29jkkTU6j9xYJrl/' }>
             <p href="#" className="inline-flex items-center justify-center px-5 py-3 mr-3 text-base font-medium text-center rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 ">
