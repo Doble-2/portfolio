@@ -19,5 +19,13 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+if (getAnalytics.isSupported()) {
+  // Inicializa Firebase Analytics
+  const analytics = getAnalytics(app);
+  
+  // Registra un evento en Firebase Analytics
+  analytics.logEvent('my_event', { my_param: 'my_value' });
+} else {
+  console.log('Firebase Analytics no es compatible con este entorno.');
+}
 export default app;
