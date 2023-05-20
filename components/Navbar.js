@@ -1,8 +1,7 @@
-import Head from 'next/head';
-import Link from 'next/link';
-import { useState } from 'react';
-import Image from 'next/image';
-
+import Head from "next/head";
+import Link from "next/link";
+import { useState } from "react";
+import Image from "next/image";
 
 export default function Home() {
   const [navbar, setNavbar] = useState(false);
@@ -12,12 +11,18 @@ export default function Home() {
         <div className=" px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-            <Link href={'/'} as={'/'} className='flex'>
-
-              <Image className="mx-2"  width={25} height={25} src={'/favicon_.png'} alt="" />
-                <h2 className="text-xl text-white font-bold">Angelcalderon.dev</h2>
-            
-            </Link>
+              <Link href={"/"} as={"/"} className="flex">
+                <Image
+                  className="mx-2"
+                  width={25}
+                  height={25}
+                  src={"/favicon_.png"}
+                  alt=""
+                />
+                <h2 className="text-xl text-white font-bold">
+                  Angelcalderon.dev
+                </h2>
+              </Link>
               <div className="md:hidden">
                 <button
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
@@ -82,7 +87,6 @@ export default function Home() {
           </div>
         </div>
       </nav>
-      
     </header>
   );
 }

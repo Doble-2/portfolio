@@ -13,10 +13,10 @@ const firebaseConfig = {
   storageBucket: "doble2.appspot.com",
   messagingSenderId: "308611740661",
   appId: "1:308611740661:web:3d8da78ac30b7cc48b66bc",
-  measurementId: "G-ZMSLKLBLBX"
+  measurementId: "G-ZMSLKLBLBX",
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 //const analytics = getAnalytics(app);
-export default  app;
+export default app;

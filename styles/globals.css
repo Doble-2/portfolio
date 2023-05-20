@@ -15,12 +15,12 @@
     --background-end-rgb:8, 14, 31;
   }
 }*/
-.nav{
-  background-color:#111;
+.nav {
+  background-color: #111;
 }
 body {
-    /* font-family: '__Inter_Fallback_f6fa1f', '__Inter_Fallback_Fallback_f6fa1f'; */
-      font-style: normal;
+  /* font-family: '__Inter_Fallback_f6fa1f', '__Inter_Fallback_Fallback_f6fa1f'; */
+  font-style: normal;
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -28,14 +28,14 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-    overflow-x: hidden;
-    scroll-behavior: smooth !important;
+  overflow-x: hidden;
+  scroll-behavior: smooth !important;
 }
 
 .justify-evenly {
- justify-content: space-evenly;
+  justify-content: space-evenly;
 }
-.card{
+.card {
   min-width: 250px;
   max-width: 500px;
   background-color: #111;
@@ -55,83 +55,84 @@ body {
 }
 
 .embla__slide {
-  flex: 0 0 45%; 
-  margin: 14px !important/* Default slide covers 100% of the viewport */
+  flex: 0 0 45%;
+  margin: 14px !important; /* Default slide covers 100% of the viewport */
 }
 @media (min-width: 768px) {
   .embla__slide {
-    flex: 0 0 33%;  };
-
-     /* Breakpoint SM slide covers 50% of the viewport */
+    flex: 0 0 33%;
   }
+
+  /* Breakpoint SM slide covers 50% of the viewport */
+}
 .Select_slide {
-  flex: 0 0 45%; 
-  margin: 14px !important/* Default slide covers 100% of the viewport */
+  flex: 0 0 45%;
+  margin: 14px !important; /* Default slide covers 100% of the viewport */
 }
 @media (min-width: 768px) {
   .Select_slide {
-    flex: 0 0 28%;  };
-
-     /* Breakpoint SM slide covers 50% of the viewport */
+    flex: 0 0 28%;
   }
-.card-image{
-  filter: brightness(0.85)
+
+  /* Breakpoint SM slide covers 50% of the viewport */
+}
+.card-image {
+  filter: brightness(0.85);
 }
 
-.cardsArea{
+.cardsArea {
   max-width: 100%;
 }
 
-.certifiedImage{
+.certifiedImage {
   height: 175px;
   color: transparent;
   object-fit: cover;
 }
 
-.banner{
+.banner {
   height: 60vh;
   background-color: #111;
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-.ProfileImage{
-
+.ProfileImage {
   max-height: 50vh !important;
   width: auto;
 }
 @media (min-width: 400px) {
-  .ProfileImage{
+  .ProfileImage {
     display: block;
   }
-  }
-  .bannerImage{
-    width: 100%;
-    z-index: 0;
-    opacity: .4;
-    bottom: 195px;
-  }
-.z-4{
-  z-index: 4;}
-.containeravila{
+}
+.bannerImage {
+  width: 100%;
+  z-index: 0;
+  opacity: 0.4;
+  bottom: 195px;
+}
+.z-4 {
+  z-index: 4;
+}
+.containeravila {
   width: 100%;
   position: absolute;
   display: flex;
   align-items: flex-end;
   height: 60vh;
-
 }
-.btn-green{
-background-color: #227C70;
+.btn-green {
+  background-color: #227c70;
 }
-.vw100{
+.vw100 {
   width: 100vw;
 }
-.h-fitcontent{
+.h-fitcontent {
   height: fit-content;
 }
-.avila{
-  content: ' ';
+.avila {
+  content: " ";
   display: block;
   left: 0;
   top: 0;
@@ -140,73 +141,68 @@ background-color: #227C70;
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
-  
+
   position: relative;
   background-image: url(/aviladark.png);
 
   background-size: cover;
 }
 
-.opacity-1{
+.opacity-1 {
   opacity: 1;
 }
-body::-webkit-scrollbar-track
-{
-
-	background-color: #f5f5f5;
+body::-webkit-scrollbar-track {
+  background-color: #f5f5f5;
 }
-body::-webkit-scrollbar
-{
+body::-webkit-scrollbar {
   display: none;
-	width: 6px;
-	background-color: #f5f5f5;
+  width: 6px;
+  background-color: #f5f5f5;
 }
 
-body::-webkit-scrollbar-thumb
-{
-	border-radius: 5px;
+body::-webkit-scrollbar-thumb {
+  border-radius: 5px;
 
-	background-color: #111;
+  background-color: #111;
 }
-header{
+header {
   position: sticky;
   z-index: 30;
   top: -1px;
 }
 @media (min-width: 1000px) {
-.menu-nav{
-  padding-right: 200px;
-}}
-.project-image{
+  .menu-nav {
+    padding-right: 200px;
+  }
+}
+.project-image {
   height: 50vh;
   object-fit: contain;
   width: auto;
 }
-.project-image-container{
+.project-image-container {
   min-width: 100%;
   margin: 0 !important;
 }
-.project-image-container>div{ 
- 
+.project-image-container > div {
   width: fit-content;
   margin-left: auto !important;
   margin-right: auto !important;
-
 }
-.w550px{
-  max-width:  550px;
+.w550px {
+  max-width: 550px;
 }
 
-  .w-50{
-    flex: 0 0 50%;
-  }
+.w-50 {
+  flex: 0 0 50%;
+}
 
-.wrap{
+.wrap {
   flex-wrap: wrap;
 }
 
-.embla-arrow{
+.embla-arrow {
   min-width: 20px;
-    flex:0 0 2%;
-    margin: 0px;
+  flex: 0 0 2%;
+  margin: 0px;
 }

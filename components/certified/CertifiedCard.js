@@ -1,23 +1,28 @@
-import React from 'react'
-import Image from 'next/image'
+import React from "react";
+import Image from "next/image";
 //import image from '../public/projects/Enviosfarma/main.jpg'
-export default function CertifiedCard({data}) {
-  
-
-//image = '../public/projects/' + data.name +'/'+ data.images[0];
+export default function CertifiedCard({ data }) {
+  //image = '../public/projects/' + data.name +'/'+ data.images[0];
   return (
-    <div className="card mx-4 border-gray-200 rounded-xl shadow  "  data-aos="fade-up">
-    <div href="#">
-      <Image alt={data.name}  loading="eager" className="rounded-t-lg card-image certifiedImage"  width={500} height={500} src={'/certifieds/'+data.id+'.jpg' } />
-    </div>
-    <div className="p-5">
+    <div
+      className="card mx-4 border-gray-200 rounded-xl shadow  "
+      data-aos="fade-up"
+    >
+      <div href="#">
+        <Image
+          alt={data.name}
+          loading="eager"
+          className="rounded-t-lg card-image certifiedImage"
+          width={500}
+          height={500}
+          src={"/certifieds/" + data.id + ".jpg"}
+        />
+      </div>
+      <div className="p-5">
         <div href="#">
-            <p className="mb-2 text-xl  tracking-tight text-white">{data.name}</p>
-            <div className="flex w-50 ">
-            
-            <p className="mb-3 font-normal text-white">
-              {data.date}{" "}
-            </p>
+          <p className="mb-2 text-xl  tracking-tight text-white">{data.name}</p>
+          <div className="flex w-50 ">
+            <p className="mb-3 font-normal text-white">{data.date} </p>
             <span className="mx-3 text-white">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -34,11 +39,14 @@ export default function CertifiedCard({data}) {
             </span>
           </div>
         </div>
-        <a  href={'/certifieds/'+data.id+'.pdf'} download className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ring-white ring-1 rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-gray-900  bg-black ">
-            Descargar
-              </a>
+        <a
+          href={"/certifieds/" + data.id + ".pdf"}
+          download
+          className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white ring-white ring-1 rounded-lg focus:ring-1 focus:ring-gray-100  hover:bg-gray-900  bg-black "
+        >
+          Descargar
+        </a>
+      </div>
     </div>
-</div>
-    
-  )
+  );
 }
