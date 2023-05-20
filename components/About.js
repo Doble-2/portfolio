@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+
 export default function About() {
   return (
     <section
@@ -28,67 +29,67 @@ export default function About() {
           </p>
 
           <div data-aos="fade-up" className="  flex wrap justify-center">
-            <img
+            <Image
               alt="react.js"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
             />
 
-            <img
+            <Image
               alt="flutter"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg"
             />
-            <img
+            <Image
               alt="php"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
             />
-            <img
+            <Image
               alt="next.js"
               className="mx-5  my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
             />
 
-            <img
+            <Image
               alt="node.js"
               className="mx-5  my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
             />
 
-            <img
+            <Image
               alt="tailwind"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
             />
 
-            <img
+            <Image
               alt="bootstrap"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
             />
-            <img
+            <Image
               alt="mysql"
               className="mx-5 my-3"
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
             />
 
-            <img
+            <Image
               alt="firebase"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
             />
 
-            <img
+            <Image
               alt="github"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
