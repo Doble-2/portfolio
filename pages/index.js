@@ -11,12 +11,7 @@ import Contact from "@component/components/Contact";
 import {
   getFirestore,
   collection,
-  addDoc,
-  getDoc,
   getDocs,
-  doc,
-  deleteDoc,
-  setDoc,
 } from "firebase/firestore";
 
 import About from "@component/components/About";

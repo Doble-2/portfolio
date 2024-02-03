@@ -30,6 +30,7 @@ export default function About() {
 
           <div data-aos="fade-up" className="  flex wrap justify-center">
             <Image
+              width={50}  height={250}
               alt="react.js"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
@@ -37,18 +38,21 @@ export default function About() {
             />
 
             <Image
+              width={50}  height={250}
               alt="flutter"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-plain.svg"
             />
             <Image
+              width={50}  height={250}
               alt="php"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
             />
             <Image
+              width={50}  height={250}
               alt="next.js"
               className="mx-5  my-3 "
               style={{ maxWidth: `50px` }}
@@ -56,6 +60,7 @@ export default function About() {
             />
 
             <Image
+              width={50}  height={250}
               alt="node.js"
               className="mx-5  my-3 "
               style={{ maxWidth: `50px` }}
@@ -63,6 +68,7 @@ export default function About() {
             />
 
             <Image
+              width={50}  height={250}
               alt="tailwind"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
@@ -70,12 +76,14 @@ export default function About() {
             />
 
             <Image
+              width={50}  height={250}
               alt="bootstrap"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
             />
             <Image
+              width={50}  height={250}
               alt="mysql"
               className="mx-5 my-3"
               style={{ maxWidth: `50px` }}
@@ -83,6 +91,7 @@ export default function About() {
             />
 
             <Image
+              width={50}  height={250}
               alt="firebase"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
@@ -90,6 +99,7 @@ export default function About() {
             />
 
             <Image
+              width={50}  height={250}
               alt="github"
               className="mx-5 my-3 "
               style={{ maxWidth: `50px` }}
