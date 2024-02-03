@@ -8,6 +8,7 @@ export default function Layout({ children }) {
       <Head>
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
+      
       <Navbar />
       {children}
       <Footer />

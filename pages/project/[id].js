@@ -24,7 +24,7 @@ export default function projectpage({ project }) {
         <link rel="shortcut icon" href="/favicon.png" />
       </Head>
       <Layout>
-        <div className="py-4">
+        <div className="py-4 bg-white">
           <div
             className="grid  sm:flex max-w-screen-xl   mx-auto lg:gap-8 xl:gap-0 lg:py-10 "
             data-aos="fade-down"

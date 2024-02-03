@@ -56,7 +56,7 @@ export default function CarouselPage({ data }) {
             {data.images.map((image) => (
               <div className=" project-image-container " key={image}>
                 <div className=" p-3 embla__slide flex justify-center">
-                  <div className="rounded-lg nav flex justify-center p-3">
+                  <div className="rounded-lg bg-black flex justify-center p-3">
                     <Image
                       loading="eager"
                       className="rounded-t-lg   card-image project-image"

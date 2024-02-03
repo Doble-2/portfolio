@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 export default function Contact() {
   return (
-    <section id="contactArea" className="">
+    <section id="contactArea" className="bg-white">
+        <div className="flex flex-wrap justify-evenly">
       <div
         className="hidden sm:flex max-w-screen-xl px-4 py-4 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
         data-aos="fade-up"
@@ -97,6 +98,7 @@ export default function Contact() {
   </Link>*/}
           </div>
         </div>
+      </div>
       </div>
       <hr className="bg-gray-800"></hr>
     </section>

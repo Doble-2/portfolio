@@ -80,11 +80,15 @@ export default function Home({ projects, certifieds }) {
           <PrincipalBanner />
           <div className="flex flex-wrap justify-evenly">
             <ProjectArea data={projects} />
-            <Current></Current>
+            </div>
+           {/* <Current></Current>*/}
+           
             <About />
+            <div className="flex flex-wrap justify-evenly">
             <CertifiedArea data={certifieds} />
-            <Contact />
+           
           </div>
+         {/* <Contact />*/}
         </main>
       </Layout>
     </>

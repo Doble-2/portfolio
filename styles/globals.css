@@ -4,8 +4,8 @@
  /*testring*/
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 200, 200, 200;
-  --background-end-rgb: 204, 204, 204;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
 }
 
 /*@media (prefers-color-scheme: dark) {
@@ -16,8 +16,9 @@
   }
 }*/
 .nav {
-  background-color: #111;
+  background-color: rgba(22, 22, 23, .8);
 }
+
 body {
   /* font-family: '__Inter_Fallback_f6fa1f', '__Inter_Fallback_Fallback_f6fa1f'; */
   font-style: normal;
@@ -38,7 +39,7 @@ body {
 .card {
   min-width: 250px;
   max-width: 500px;
-  background-color: #111;
+  background-color: #000;
   height: fit-content;
 }
 
@@ -92,7 +93,7 @@ body {
 
 .banner {
   height: 60vh;
-  background-color: #111;
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,4 +206,16 @@ header {
   min-width: 20px;
   flex: 0 0 2%;
   margin: 0px;
+}
+.bg-black{
+  color: white;
+}
+
+.card-desc{
+  contain: paint;
+  max-height: 100px;
+  text-overflow: ellipsis;
+}
+.main-section{
+  min-height: 650px
 }
