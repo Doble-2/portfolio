@@ -219,3 +219,8 @@ header {
 .main-section{
   min-height: 650px
 }
+.card-image-project{
+  height: 230px;
+    object-fit: cover;
+    object-position: top;
+}

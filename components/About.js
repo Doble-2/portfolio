@@ -51,13 +51,16 @@ export default function About() {
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-plain.svg"
             />
+            <div className="bg-white mx-5 my-3 rounded-full	p-1">
             <Image
               width={50}  height={250}
               alt="next.js"
-              className="mx-5  my-3 "
+              className=""
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
             />
+            </div>
+          
 
             <Image
               width={50}  height={250}
@@ -97,14 +100,47 @@ export default function About() {
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
             />
-
+ <div className="bg-white mx-5 my-3 rounded-full	p-1">
             <Image
               width={50}  height={250}
               alt="github"
-              className="mx-5 my-3 "
+              className=""
               style={{ maxWidth: `50px` }}
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
             />
+            </div>
+            <Image
+              width={50}  height={250}
+              alt="dart"
+              className=" mx-5 my-3"
+              style={{ maxWidth: `50px` }}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dart/dart-original.svg"
+            />
+            <Image
+              width={50}  height={250}
+              alt="css"
+              className=" mx-5 my-3"
+              style={{ maxWidth: `50px` }}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+            />
+             <Image
+              width={50}  height={250}
+              alt="git"
+              className=" mx-5 my-3"
+              style={{ maxWidth: `50px` }}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+            />
+            <Image
+              width={50}  height={250}
+              alt="git"
+              className=" mx-5 my-3"
+              style={{ maxWidth: `50px` }}
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+            />
+         
+
+
+            
           </div>
         </div>
       </div>

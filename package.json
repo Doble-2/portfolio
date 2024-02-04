@@ -13,6 +13,7 @@
     "aos": "^2.3.4",
     "autoprefixer": "10.4.17",
     "bootstrap": "^5.3.2",
+    "devicon": "^2.15.1",
     "embla-carousel-autoplay": "^8.0.0-rc22",
     "embla-carousel-react": "^7.1.0",
     "eslint": "8.56.0",

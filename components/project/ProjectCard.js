@@ -16,7 +16,7 @@ export default function ProjectCard({ data }) {
       <Link href={"project/[id]"} as={"project/" + data.id}>
         <Image
           loading="eager"
-          className="rounded-t-lg card-image"
+          className="rounded-t-lg card-image card-image-project"
           width={500}
           height={500}
           src={"/projects/" + data.name + "/" + data.images[0]}
